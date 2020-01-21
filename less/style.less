@@ -1,0 +1,134 @@
+// @import "libs/lesselements.less";
+// @import "libs/utils.less";
+@import 'libs/header.less';
+@import 'libs/header-slider.less';
+@import 'libs/quote.less';
+@import 'libs/video-preview.less';
+@import 'libs/shop.less';
+@import 'libs/blog.less';
+@import 'libs/club.less';
+@import 'libs/footer.less';
+
+
+// font-family: 'Playfair Display', serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Fira Sans', sans-serif;
+// font-family: 'League Spartan', sans-serif;
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/leaguespartan-bold.eot');
+    src: url('../fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguespartan-bold.woff2') format('woff2'),
+         url('../fonts/leaguespartan-bold.woff') format('woff'),
+         url('../fonts/leaguespartan-bold.ttf') format('truetype'),
+         url('../fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: 'Poppins', sans-serif;
+	background: url('../img/bg/bg-lines.png') repeat-y;
+	background-size: initial;
+	background-position: center;
+}
+
+.btn--transparent {
+	// width: 120px;
+	color: #333333;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 1px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	background-color: transparent;
+	box-shadow: none;
+	transition: 0.2s ease-in;
+	cursor: pointer;
+
+	&:after {
+		content: '';
+		display: block;
+		// width: 100px;
+		height: 3px;
+		background-color: #5da8ef;
+		opacity: 0.7;
+		margin-top: 8px;
+	}
+
+	&:focus,
+	&:hover {
+		color: darken(#333333, 20%);
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+/*==========  Mobile First Method — Bootstrap Grid ==========*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+// Code here
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+}
+
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets - adaptive styles bofore 768px */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones - adaptive styles bofore 480px */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina - adaptive styles bofore 320px */
+@media only screen and (max-width : 320px) {
+
+}
