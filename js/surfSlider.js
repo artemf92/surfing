@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	console.log('Hello surf!');
+	// console.log('Hello surf!');
 
 	var surfSlider = $('.surfSlider'),
 		surfPrevBtn = $('#surfPrevBtn'),
@@ -22,12 +22,12 @@ $(document).ready(function() {
 
 	surfPrevBtn.click(function(){
 		surfSlider.trigger('prev.owl.carousel');
-		console.log('Prev Surf');
+		// console.log('Prev Surf');
 	});
 
 	surfNextBtn.click(function(){
 		surfSlider.trigger('next.owl.carousel');
-		console.log('Next Surf');
+		// console.log('Next Surf');
 	});
 
 });
