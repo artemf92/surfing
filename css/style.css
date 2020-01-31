@@ -437,7 +437,7 @@ li afocus {
   top: -395px;
   left: 0;
   z-index: -10;
-  background: url('../../img/bg/bg-lines.png') repeat-y, url('../../img/bg/bg-water.jpg') no-repeat;
+  background: url('../img/bg/bg-lines.png') repeat-y, url('../img/bg/bg-water.jpg') no-repeat;
   background-position: center, center;
   background-size: auto, cover;
 }
@@ -769,7 +769,7 @@ li afocus {
   height: 1337px;
   left: 0;
   z-index: -10;
-  background: url('../../img/bg/bg-lines.png') repeat-y, url('../../img/bg/bg-surfer.jpg') no-repeat;
+  background: url('../img/bg/bg-lines.png') repeat-y, url('../img/bg/bg-surfer.jpg') no-repeat;
   background-size: auto, cover;
   background-position: center, center;
 }
@@ -872,7 +872,7 @@ li afocus {
 .news--btn {
   margin: 0 auto;
   display: block;
-  width: 126px;
+  width: 130px;
   height: auto;
   padding-bottom: 8px;
   font-family: 'League Spartan', sans-serif;
@@ -881,6 +881,7 @@ li afocus {
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: 5.4px;
+  text-align: center;
 }
 .news--btn a {
   color: rgba(93, 168, 239, 0.7);
